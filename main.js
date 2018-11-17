@@ -316,7 +316,7 @@ polyGroups.forEach(polyGroup => {
             y: `${(poly.center.y - poly.radius) * 100}%`,
             class: 'labels',
         });
-        t.innerHTML = `${poly.verts.length}-${poly.rotation}`;
+        t.innerHTML = `${poly.verts.length} ${poly.rotation}`;
         svg.appendChild(t);
 
         let t2 = document.createElementNS(ns, 'text');
