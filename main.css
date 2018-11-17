@@ -1,0 +1,43 @@
+body {
+	overflow-x: hidden;
+}
+
+svg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vw; /* intentional - for geting non-warped dimensions when using y = 100%*/
+}
+
+.border {
+	stroke: rgb(0, 0, 0);
+	stroke-width: 4;
+	fill: none;
+}
+
+.point {
+  stroke: none;
+  fill: rgb(0, 0, 0);
+}
+
+.highlight {
+	stroke: rgb(255, 0, 0);
+	stroke-width: 10;
+	fill: rgb(255, 0, 0);
+}
+
+.lineA {
+	stroke: rgb(192, 128, 0);
+	stroke-width: 2;
+}
+
+.lineB {
+	stroke: rgb(0, 128, 192);
+	stroke-width: 2;
+}
+
+.labels {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
